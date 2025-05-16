@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import styles from "../../styles/ChatPage.module.css"; 
-import users from "../api/auth/me";
-import User from "@/models/User";
+import styles from "../../styles/Chatpage.module.css"
 import { useSession } from "next-auth/react";
 
 export default function ChatPage() {
